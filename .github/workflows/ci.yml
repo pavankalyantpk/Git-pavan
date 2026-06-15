@@ -48,6 +48,11 @@ jobs:
     - name: Docker Version Check
       run: |
         python check_docker.py
+        
+    - name: Lint
+      run: |
+       pip install flake8
+       flake8 . --max-line-length=120
 
     - name: Cleanup
       run: |
