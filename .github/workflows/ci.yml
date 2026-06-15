@@ -48,7 +48,16 @@ jobs:
     - name: Docker Version Check
       run: |
         python check_docker.py
+        
+    - name: Lint
+      run: |
+        pip install flake8
+        flake8 .
 
+    - name: Verify Flask Endpoint
+      run: |
+        curl http://localhost:5000    
+        
     - name: Cleanup
       run: |
         docker stop test-container
