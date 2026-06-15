@@ -4,7 +4,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "GitHub Actions CI/CD pipeline with Docker is Working for flask App!"
+    return "GitHub Actions CI/CD with Docker is Working!"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+
