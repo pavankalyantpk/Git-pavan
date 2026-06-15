@@ -1,0 +1,80 @@
+﻿timestamp,object,message
+2026-06-12T04:22:42.751Z,,Collecting flask==3.0.3 (from -r requirements.txt (line 1))
+2026-06-12T04:22:46.471Z,,Downloading flask-3.0.3-py3-none-any.whl.metadata (3.2 kB)
+2026-06-12T04:22:46.738Z,,Collecting Werkzeug>=3.0.0 (from flask==3.0.3->-r requirements.txt (line 1))
+2026-06-12T04:22:46.787Z,,Downloading werkzeug-3.1.8-py3-none-any.whl.metadata (4.0 kB)
+2026-06-12T04:22:46.876Z,,Collecting Jinja2>=3.1.2 (from flask==3.0.3->-r requirements.txt (line 1))
+2026-06-12T04:22:46.929Z,,Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+2026-06-12T04:22:47.041Z,,Collecting itsdangerous>=2.1.2 (from flask==3.0.3->-r requirements.txt (line 1))
+2026-06-12T04:22:47.091Z,,Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+2026-06-12T04:22:47.214Z,,Collecting click>=8.1.3 (from flask==3.0.3->-r requirements.txt (line 1))
+2026-06-12T04:22:47.255Z,,Downloading click-8.4.1-py3-none-any.whl.metadata (2.6 kB)
+2026-06-12T04:22:47.384Z,,Collecting blinker>=1.6.2 (from flask==3.0.3->-r requirements.txt (line 1))
+2026-06-12T04:22:47.432Z,,Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+2026-06-12T04:22:47.701Z,,Collecting MarkupSafe>=2.0 (from Jinja2>=3.1.2->flask==3.0.3->-r requirements.txt (line 1))
+2026-06-12T04:22:47.742Z,,Downloading markupsafe-3.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+2026-06-12T04:22:47.842Z,,Downloading flask-3.0.3-py3-none-any.whl (101 kB)
+2026-06-12T04:22:47.925Z,,━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 101.7/101.7 kB 1.4 MB/s eta 0:00:00
+2026-06-12T04:22:47.926Z,,
+2026-06-12T04:22:47.971Z,,Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+2026-06-12T04:22:48.023Z,,Downloading click-8.4.1-py3-none-any.whl (116 kB)
+2026-06-12T04:22:48.099Z,,━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 116.6/116.6 kB 1.7 MB/s eta 0:00:00
+2026-06-12T04:22:48.105Z,,
+2026-06-12T04:22:48.149Z,,Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+2026-06-12T04:22:48.203Z,,Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+2026-06-12T04:22:48.278Z,,━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.9/134.9 kB 2.0 MB/s eta 0:00:00
+2026-06-12T04:22:48.279Z,,
+2026-06-12T04:22:48.317Z,,Downloading werkzeug-3.1.8-py3-none-any.whl (226 kB)
+2026-06-12T04:22:48.428Z,,━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 226.5/226.5 kB 2.4 MB/s eta 0:00:00
+2026-06-12T04:22:48.429Z,,
+2026-06-12T04:22:48.477Z,,Downloading markupsafe-3.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+2026-06-12T04:22:48.596Z,,"Installing collected packages: MarkupSafe, itsdangerous, click, blinker, Werkzeug, Jinja2, flask"
+2026-06-12T04:22:49.462Z,,Successfully installed Jinja2-3.1.6 MarkupSafe-3.0.3 Werkzeug-3.1.8 blinker-1.9.0 click-8.4.1 flask-3.0.3 itsdangerous-2.2.0
+2026-06-12T04:22:49.466Z,,WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+2026-06-12T04:22:49.769Z,,
+2026-06-12T04:22:49.769Z,,[notice] A new release of pip is available: 24.0 -> 26.1.2
+2026-06-12T04:22:49.769Z,,"[notice] To update, run: pip install --upgrade pip"
+2026-06-15T04:44:35.164Z,https://github.com/pavankalyantpk/Git-pavan.git,[internal] load build definition from Dockerfile
+2026-06-15T04:44:35.176Z,https://github.com/pavankalyantpk/Git-pavan.git,[internal] load build definition from Dockerfile
+2026-06-15T04:44:35.266Z,https://github.com/pavankalyantpk/Git-pavan.git,transferring (201 bytes)
+2026-06-15T04:44:35.321Z,https://github.com/pavankalyantpk/Git-pavan.git,[internal] load metadata for docker.io/library/python:3.11-slim
+2026-06-15T04:44:40.830Z,https://github.com/pavankalyantpk/Git-pavan.git,[internal] load .dockerignore
+2026-06-15T04:44:40.831Z,https://github.com/pavankalyantpk/Git-pavan.git,[internal] load .dockerignore
+2026-06-15T04:44:40.892Z,https://github.com/pavankalyantpk/Git-pavan.git,[1/5] FROM docker.io/library/python:3.11-slim@sha256:ae52c5bef62a6bdd42cd1e8dffef86b9cd284bde9427da79839de7a4b983e7ca
+2026-06-15T04:44:40.893Z,https://github.com/pavankalyantpk/Git-pavan.git,[internal] load build context
+2026-06-15T04:44:40.897Z,https://github.com/pavankalyantpk/Git-pavan.git,[internal] load build context
+2026-06-15T04:44:41.002Z,https://github.com/pavankalyantpk/Git-pavan.git,transferring (47896 bytes)
+2026-06-15T04:44:41.045Z,https://github.com/pavankalyantpk/Git-pavan.git,resolve docker.io/library/python:3.11-slim@sha256:ae52c5bef62a6bdd42cd1e8dffef86b9cd284bde9427da79839de7a4b983e7ca
+2026-06-15T04:44:41.047Z,https://github.com/pavankalyantpk/Git-pavan.git,[1/5] FROM docker.io/library/python:3.11-slim@sha256:ae52c5bef62a6bdd42cd1e8dffef86b9cd284bde9427da79839de7a4b983e7ca
+2026-06-15T04:44:41.064Z,https://github.com/pavankalyantpk/Git-pavan.git,[2/5] WORKDIR /app
+2026-06-15T04:44:41.064Z,https://github.com/pavankalyantpk/Git-pavan.git,[3/5] COPY requirements.txt .
+2026-06-15T04:44:41.064Z,https://github.com/pavankalyantpk/Git-pavan.git,[4/5] RUN pip install --no-cache-dir -r requirements.txt
+2026-06-15T04:44:41.065Z,https://github.com/pavankalyantpk/Git-pavan.git,[5/5] COPY . .
+2026-06-15T04:44:41.248Z,https://github.com/pavankalyantpk/Git-pavan.git,exporting to image
+2026-06-15T04:44:41.515Z,https://github.com/pavankalyantpk/Git-pavan.git,exporting layers
+2026-06-15T04:44:41.559Z,https://github.com/pavankalyantpk/Git-pavan.git,exporting manifest sha256:69beb4c649ce607b8aecd1bde59806bb35b2b36ec41b06a8523a7ccdc382dd09
+2026-06-15T04:44:41.592Z,https://github.com/pavankalyantpk/Git-pavan.git,exporting config sha256:b3d04a3e8ecaa1e2593e38b28541046d7cbc3220acc4ad2b0744680314e06a95
+2026-06-15T04:44:41.707Z,https://github.com/pavankalyantpk/Git-pavan.git,exporting attestation manifest sha256:a269da8eb139096668d8a86a1d4fd903149f9257d2b394fdce12f43bae6522b2
+2026-06-15T04:44:41.740Z,https://github.com/pavankalyantpk/Git-pavan.git,exporting manifest list sha256:69a0ebc676a7b3535d0ae63c3f13cb8cc33c1277d30d29b2d8cd7214c81f9e31
+2026-06-15T04:44:41.751Z,https://github.com/pavankalyantpk/Git-pavan.git,naming to docker.io/library/flask-app:latest
+2026-06-15T04:44:43.498Z,https://github.com/pavankalyantpk/Git-pavan.git,unpacking to docker.io/library/flask-app:latest
+2026-06-15T04:45:08.899Z,flask-demo, * Serving Flask app 'app'
+2026-06-15T04:45:08.900Z,flask-demo, * Debug mode: off
+2026-06-15T04:45:08.909Z,flask-demo,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2026-06-15T04:45:08.909Z,flask-demo, * Running on all addresses (0.0.0.0)
+2026-06-15T04:45:08.909Z,flask-demo, * Running on http://127.0.0.1:5000
+2026-06-15T04:45:08.909Z,flask-demo, * Running on http://172.17.0.2:5000
+2026-06-15T04:45:08.909Z,flask-demo,[33mPress CTRL+C to quit[0m
+2026-06-15T04:46:27.774Z,flask-demo,"172.17.0.1 - - [15/Jun/2026 04:46:27] ""GET / HTTP/1.1"" 200 -"
+2026-06-15T04:46:28.514Z,flask-demo,"172.17.0.1 - - [15/Jun/2026 04:46:28] ""[33mGET /favicon.ico HTTP/1.1[0m"" 404 -"
+2026-06-15T05:00:32.931Z,flask-demo,"172.17.0.1 - - [15/Jun/2026 05:00:32] ""GET / HTTP/1.1"" 200 -"
+2026-06-15T05:00:34.862Z,flask-demo,"172.17.0.1 - - [15/Jun/2026 05:00:34] ""GET / HTTP/1.1"" 200 -"
+2026-06-15T05:33:41.245Z,flask-demo, * Serving Flask app 'app'
+2026-06-15T05:33:41.245Z,flask-demo, * Debug mode: off
+2026-06-15T05:33:41.258Z,flask-demo,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2026-06-15T05:33:41.258Z,flask-demo, * Running on all addresses (0.0.0.0)
+2026-06-15T05:33:41.258Z,flask-demo, * Running on http://127.0.0.1:5000
+2026-06-15T05:33:41.258Z,flask-demo, * Running on http://172.17.0.2:5000
+2026-06-15T05:33:41.259Z,flask-demo,[33mPress CTRL+C to quit[0m
+2026-06-15T05:33:48.100Z,flask-demo,"172.17.0.1 - - [15/Jun/2026 05:33:48] ""GET / HTTP/1.1"" 200 -"
+2026-06-15T05:33:48.569Z,flask-demo,"172.17.0.1 - - [15/Jun/2026 05:33:48] ""[33mGET /favicon.ico HTTP/1.1[0m"" 404 -"
